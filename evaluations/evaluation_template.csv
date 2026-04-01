@@ -1,0 +1,5 @@
+id,prompt_id,model,response,accuracy,reasoning,clarity,completeness,hallucination,notes
+1,1,LLM_A,,,,,,
+2,1,LLM_B,,,,,,
+3,2,LLM_A,,,,,,
+4,2,LLM_B,,,,,,
