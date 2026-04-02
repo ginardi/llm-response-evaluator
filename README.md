@@ -9,6 +9,7 @@ The project includes:
 - a dataset of prompts
 - structured evaluation criteria
 - comparison of multiple LLM responses
+- a simple Python script for score aggregation
 
 ## Evaluation Criteria
 - Accuracy: factual correctness of the response
@@ -18,9 +19,17 @@ The project includes:
 - Hallucination: presence of incorrect or fabricated information
 
 ## Structure
-- data/prompts.csv → input prompts
-- evaluations/evaluation_template.csv → evaluation framework
-- analysis/ → scripts for comparing responses
+- data/prompts.csv -> input prompts
+- data/responses.csv -> model responses
+- evaluations/evaluation_template.csv -> evaluation framework
+- analysis/compare_responses.py -> score aggregation script
+
+## Current Results
+Based on the current evaluation sample:
+- LLM_A average score: 19.0
+- LLM_B average score: 14.0
+
+This shows how structured human evaluation can distinguish between stronger and weaker model outputs across multiple dimensions.
 
 ## Purpose
 This project is designed to showcase skills in:
@@ -28,5 +37,19 @@ This project is designed to showcase skills in:
 - prompt engineering
 - hallucination detection
 - comparative analysis of AI outputs
+- RLHF-style assessment workflows
 
 These skills are directly relevant for AI training and evaluation platforms.
+
+## Example Evaluation
+
+Prompt: Explain phishing
+
+LLM_A:
+More detailed, includes prevention strategies and structured explanation.
+
+LLM_B:
+Correct but less complete and less detailed.
+
+Conclusion:
+LLM_A is preferred due to higher completeness and reasoning quality.
