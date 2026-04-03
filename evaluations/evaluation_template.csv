@@ -1,11 +1,11 @@
 id,prompt_id,model,response,accuracy,reasoning,clarity,completeness,hallucination,notes
-1,1,LLM_A,,5,5,5,5,1,Comprehensive and well-structured explanation with strong prevention coverage
-2,1,LLM_B,,4,3,4,3,2,Correct but less detailed and less complete on prevention measures
-3,2,LLM_A,,5,5,5,5,1,Clear and complete comparison with strong conceptual distinction
-4,2,LLM_B,,4,4,4,3,1,Good explanation but more generic and less detailed
+1,1,LLM_A,,5,5,5,4,1,Accurate and well-structured response with strong prevention guidance but slightly less complete than ideal
+2,1,LLM_B,,4,3,4,3,2,Correct overall but less detailed and less complete on prevention measures
+3,2,LLM_A,,4,4,4,4,1,Good explanation but slightly less strong in examples and distinction
+4,2,LLM_B,,5,5,4,5,1,Clearer and more complete distinction between supervised and unsupervised learning
 5,3,LLM_A,,5,5,5,5,1,Accurate and detailed explanation with strong mitigation guidance
 6,3,LLM_B,,4,4,4,4,1,Good explanation but slightly less precise and less comprehensive
-7,4,LLM_A,,5,5,5,5,1,Clear definition with strong use cases and methods
-8,4,LLM_B,,4,4,4,3,1,Correct and readable but more general and less complete
+7,4,LLM_A,,5,5,5,5,1,Clear definition with relevant use cases and good structure
+8,4,LLM_B,,5,5,5,5,1,Equally strong response with clear explanation and solid examples
 9,5,LLM_A,,5,5,5,5,1,Very clear explanation of trade-offs and partition scenarios
-10,5,LLM_B,,4,4,4,4,1,Good high-level explanation but slightly less explicit
+10,5,LLM_B,,4,4,4,4,3,Mostly correct high-level explanation but includes weaker precision and higher hallucination risk
