@@ -64,7 +64,7 @@ llm-response-evaluator/
 - LLM_B wins: 1  
 - Ties: 1  
 
-This distribution reflects a more realistic evaluation scenario with both clear and ambiguous cases.
+This distribution reflects a realistic evaluation scenario with both clear and ambiguous cases.
 
 ## Why This Project Is Relevant
 
